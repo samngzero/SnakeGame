@@ -47,3 +47,7 @@ class SnakeBody():
     def turn_left(self):
         if self.body[0].heading() != 0:
             self.body[0].setheading(180)
+
+    def reset(self):
+        self.clear()
+
